@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+* {
+    box-sizing: border-box;
+    color: #070707;
+}
+
+.nav li{
+    display: inline;
+    font-family: 'Caveat', cursive;
+}
+
+.nav ul{
+    margin: 0;
+    font-family: 'Caveat', cursive;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.nav a:hover{
+    background-color: rgba(255, 255, 255, 0.18)
+}
+
+.main-nav li{
+    padding: 0 0.5em;
+}
+
+.main-banner{
+    background-color: rgba(0, 0, 0, .3);
+    background-image: url("images/Background.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 3px;
+}
+
+.band-name{
+    margin: 0;
+    font-size: 1.5em;
+    font-family: 'Rubik Burned', sans-serif;
+}
+
+.band-name-large{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 4em;
+}
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-header{
+    display: block;
+    margin: 20px auto;
+    color: white;
+    border: 2px solid #AAA;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em
+}
+
+.btn-primary{
+    color: white;
+    background-color: #005307;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: #004206;
+}
+
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, 0.18);
+}
+
+.btn-play{
+    display: block;
+    margin: 0 auto;
+    color: #AAA;
+    font-size: 4em;
+    border-radius: 50%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.content-section{
+    margin: 1em;
+    font-family:'Times New Roman', Times, serif !important;
+}
+
+.section-header{
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: center;
+    color: #000000;
+}
+
+p{
+    font-family: 'Space Grotesk', sans-serif;
+    color: #101010;
+}
+
+.about-band-image{
+    float: left;
+    height: 200px;
+    Width: 200px;
+    border-radius: 50%;
+}
+
+.main-footer{
+    text-align: right;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    padding: .25em 0;
+}
+
+.footer-nav li{
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer a{
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.footer li{
+    display: inline;
+}
+
+.footer ul{
+    margin: 0;
+}
+
+h3{
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.tour-row{
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.tour-row:last-child{
+    border-bottom: none;
+}
+
+.tour-item{
+    padding-right: .5em;
+    display: inline-block;
+}
+
+.tour-date{
+    color: #555;
+    font-weight: bold;
+    width: 11%;
+}
+
+.tour-city{
+    width: 24%;
+}
+
+.tour-arena{
+    width: 42%;
+}
+
+.tour-btn{
+    max-width: 19%;
+}
+
+.shop-item{
+    margin: 30px;
+}
+
+.shop-item-title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shop-item-image{
+    height: 250px;
+}
+
+.shop-item-details{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price{
+    flex-grow: 1;
+}
+
+.shop-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cart-header{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-column{
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row{
+    display: flex;
+}
+
+.cart-item{
+    width: 45%;
+}
+
+.cart-price{
+    width: 20%;
+}
+
+.cart-quantity{
+    width: 35%;
+}
